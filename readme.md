@@ -1,8 +1,8 @@
 # Architectural Design WebApp
 
-Welcome to our Architectural Design WebApp, your go-to platform for creating stunning architectural projects with ease.
+Welcome to our Architectural Design WebApp. This is a prototype we've been scoping for a couple weeks, and now finally ready to be started.
 
-## Features
+## Expectations
 
 - **Intuitive Interface**: A user-friendly interface designed to streamline the architectural design process.
 
@@ -10,11 +10,7 @@ Welcome to our Architectural Design WebApp, your go-to platform for creating stu
 
 - **Interior and Facade Design**: Robust tools for crafting both interior spaces and captivating facades.
 
-- **Collaboration**: Foster teamwork by inviting collaborators to work on projects together.
-
-- **Customization Options**: Personalize your designs with a wide range of customization options for a unique touch.
-
-- **Visualization**: Visualize your designs in 3D to get a realistic preview before implementation.
+- **Visualization**: Visualize aesthetics and design choices to get a realistic preview before commencing your architecure projects.
 
 ## Getting Started
 
