@@ -30,13 +30,3 @@ Welcome to our Architectural Design WebApp. This is a prototype we've been scopi
     ```
 
 4. Access the webapp in your browser at `http://localhost:3000`.
-
-## Contributing
-
-We welcome contributions! If you'd like to enhance our Architectural Design WebApp, please follow our [contribution guidelines](CONTRIBUTING.md).
-
-## Feedback
-
-We value your feedback! If you encounter any issues or have suggestions for improvement, please [open an issue](https://github.com/your-username/architectural-design-webapp/issues).
-
-Happy designing!
