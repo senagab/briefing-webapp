@@ -1,12 +1,19 @@
 type ListItemProps = {
-    items: string[]; // Nome correto da propriedade
+    items: { 
+        text: string; 
+        href: string 
+    }[]; // one for each, href and text
 };
 
 export function ListItem({ items }: ListItemProps) {
     return (
         <ul>
             {items.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index}>
+                    <a href={item.href} rel="noopener noreferrer">
+                        {item.text}
+                    </a>
+                </li>
             ))}
         </ul>
     );
