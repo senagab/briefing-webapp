@@ -1,21 +1,15 @@
 type ListItemProps = {
-    text: string;
-}
+    items: string[]; // Nome correto da propriedade
+};
 
-export function ListItem(props: ListItemProps){
+export function ListItem({ items }: ListItemProps) {
     return (
         <ul>
-            <li>
-                {props.text}
-            </li>
-            <li>
-                {props.text}
-            </li>
-            <li>
-                {props.text}
-            </li>
+            {items.map((item, index) => (
+                <li key={index}>{item}</li>
+            ))}
         </ul>
     );
 }
 
-export default ListItem
+export default ListItem;

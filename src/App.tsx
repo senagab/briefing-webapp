@@ -1,14 +1,14 @@
-import ListItem from "./components/ListItem"
+import ListItem from "./components/ListItem";
 
 function App() {
-    const items = ['novo', 'clientes', 'sair']
+    const items = ['novo', 'clientes', 'sair'];
 
-    return  (
+    return (
         <>
             <h2>Menu</h2>
-            <ListItem text="item 1" />
+            <ListItem items={items} />
         </>
     );
 }
 
-export default App
+export default App;
