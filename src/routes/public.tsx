@@ -1,6 +1,5 @@
-import App from '../App'
-import { Login } from '../pages'
-
+import App from '../App';
+import { Login } from '../pages';
 
 export const publicRoutes = [
     {
