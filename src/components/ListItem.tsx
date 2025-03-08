@@ -1,18 +1,20 @@
-type ListItemProps = {
-    items: { 
-        text: string; 
-        href: string 
-    }[]; // one for each, href and text
-};
+import { Link } from "react-router-dom";
 
-export function ListItem({ items }: ListItemProps) {
+interface Item {
+    text: string;
+    href: string;
+}
+
+interface ListItemProps {
+    items: Item[];
+}
+
+function ListItem({ items }: ListItemProps) {
     return (
         <ul>
             {items.map((item, index) => (
                 <li key={index}>
-                    <a href={item.href} rel="noopener noreferrer">
-                        {item.text}
-                    </a>
+                    <Link to={item.href}>{item.text}</Link>
                 </li>
             ))}
         </ul>
