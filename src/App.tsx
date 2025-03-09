@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import ListItem from "./components/ListItem";
-import Novo from "./pages/Novo";  
-import Clientes from "./pages/Clientes";
-import Login from "./pages/Login";
+import Novo from "./pages/novo";  
+import Clientes from "./pages/clientes";
+import Login from "./pages/login";
 
 function App() {
     const items = [
