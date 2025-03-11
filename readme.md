@@ -1,4 +1,11 @@
 # Architectural Design WebApp
+<p align="left">
+    <img src="https://img.shields.io/badge/eslint-v9.21.0-white?logo=eslint&labelColor=black" alt="ES Lint version">
+    <img src="https://img.shields.io/badge/reactrouterdom-v7.3.0-green?logo=react&labelColor=black" alt="React Router DOM version">
+    <img src="https://img.shields.io/badge/react-v19.0.0-blue?logo=react&labelColor=black" alt="React version">
+    <img src="https://img.shields.io/badge/typescript-v5.7.2-2f74c0?logo=typescript&labelColor=black" alt="Typescript version">
+    <img src="https://img.shields.io/badge/vite-v6.2.0-8a2be2?logo=vite&labelColor=black" alt="Vite version">
+</p>
 
 Welcome to our Architectural Design WebApp. This is a prototype we've been scoping for a couple weeks, and now finally ready to be started.
 
