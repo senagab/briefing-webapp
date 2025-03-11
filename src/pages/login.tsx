@@ -35,6 +35,8 @@ const Login = () => {
                 required
                 />
             </form>
+
+            <button>entrar</button>
         </div>
     )
 }

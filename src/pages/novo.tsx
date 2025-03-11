@@ -1,6 +1,8 @@
 const Novo = () => {
     return (
-        <h2>Novo cliente</h2>
+        <>
+            <h2>Novo cliente</h2>
+        </>
     )
 }
 
