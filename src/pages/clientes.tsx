@@ -10,6 +10,7 @@ const Clientes = () => {
     return (
         <>
             <h2>Clientes</h2>
+            <img src="" alt="" />
             <ListItem items={items} />
         </>
     )
