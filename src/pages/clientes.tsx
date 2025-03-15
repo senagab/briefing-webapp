@@ -10,7 +10,7 @@ const Clientes = () => {
     return (
         <>
             <h2>Clientes</h2>
-            <img src="../assets/return.png" alt="" />
+            <a href="/">return</a>
             <ListItem items={items} />
         </>
     )

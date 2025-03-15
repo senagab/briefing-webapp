@@ -2,6 +2,7 @@ const Novo = () => {
     return (
         <>
             <h2>Novo cliente</h2>
+            <a href="/">return</a>
             <form>
                 <label htmlFor="label">Client's Name</label>
                 <input type="text" />
