@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { JSX } from 'react';
 import { RouteObject, useRoutes } from 'react-router-dom';
 import { publicRoutes } from './public';
 import { privateRoutes } from './private';
